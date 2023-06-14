@@ -1,0 +1,37 @@
+#app-header{
+    margin-left: 45%;
+}
+
+.stopwatch-container{
+    height: 12rem;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0 45% 0 45%; */
+    border: 2px solid black;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#display-timer{
+    height: 3rem;
+    width: 5rem;
+    margin: 10% 0 10% 45%; 
+}
+
+.timer-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 0.4rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
