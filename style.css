@@ -1,37 +1,106 @@
-#app-header{
-    margin-left: 45%;
+body{
+    margin: 0;  
+    background-color: black;  
+    color: whitesmoke;  
+    font-family: sans-serif;  
 }
 
+#app-header{
+    text-align: center;  /* Align the page header at the center */
+}
+
+/* styling for stopwatch container */
 .stopwatch-container{
-    height: 12rem;
+    height: 12rem; 
     width: 30rem;
-    margin-left: auto;
+    margin-left: auto; 
     margin-right: auto;
-    /* margin: 0 45% 0 45%; */
-    border: 2px solid black;
+    border: 2px solid whitesmoke;
     border-radius: 3rem;
     display: flex;
     flex-direction: column;
 }
 
+/* styling for timer screen */
 #display-timer{
     height: 3rem;
-    width: 5rem;
-    margin: 10% 0 10% 45%; 
+    width: 9rem;
+    font-size: xx-large;
+    margin: 10% 0 5% 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* container for buttons */
 .timer-buttons{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: row;  /* use flex property to arrange the buttons */
+    justify-content: space-around;  /* sets equal space around each button */
 }
 
+/* common class for buttons */
 .btn{
-    height: 2rem;
-    width: 5rem;
-    border-radius: 0.4rem;
+    height: 2.5rem;
+    width: 7rem;
+    font-size: large;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    color: whitesmoke;
 }
 
 .btn:hover{
     cursor: pointer;
+    opacity: 0.8;  
 }
+
+/* add background colors to individual buttons */
+#start{
+    background-color: #62A388;
+}
+#stop{
+    background-color: #951556;
+}
+#reset{
+    background-color: #5F85DB;
+}
+
+
+/* Media Queries */
+
+/* styling to suite mobile screen */
+@media screen and (max-width: 480px) {
+    #app-header{
+        text-align: center;
+        background-color: #1F024C;
+        margin-top: 0;
+        padding: 9px;
+    }
+
+    .stopwatch-container {
+        width: 100%;
+        height: 100vh;
+        border: none;
+    }
+  
+    #display-timer {
+        /* margin: 10% 0 5% 0; */
+        text-align: center;
+    }
+
+    .timer-buttons{
+        height: 20rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* padding-left: 9rem; */
+    }
+
+    .btn{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+    }
+}
+
