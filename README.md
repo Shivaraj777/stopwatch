@@ -27,6 +27,6 @@ JavaScript Logic:
     incrementTimer(): callback added to setInterval function to increment the time at equal intervals
     stopTimer(): Stops the timer by clearing the setInterval instance.
     resetTimer(): Resets the timer by clearing the setInterval instance and setting the minutes,  seconds and milli-seconds back to 0.
-    padZero(value): Pads a single digit value with a leading zero if required.
+    padZero(data): Pads a single digit value with a leading zero if required.
 
 Created by Shivaraj M Shetty
