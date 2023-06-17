@@ -19,6 +19,7 @@ The features included in the stopwatch app are:
 Styling:
     The Stopwatch is styled by using external css file style.css.
     The body of the app is dark themed and the stopwatch is centered for better visibilty.
+    The app also uses media queries to adjust the elements according to mobile screen size.
 
 JavaScript Logic:
     The JavaScript code in script.js handles the functionality of the stopwatch. It includes the following functions:
@@ -28,5 +29,8 @@ JavaScript Logic:
     stopTimer(): Stops the timer by clearing the setInterval instance.
     resetTimer(): Resets the timer by clearing the setInterval instance and setting the minutes,  seconds and milli-seconds back to 0.
     padZero(data): Pads a single digit value with a leading zero if required.
+
+Hosted on: w3spaces
+    url: https://stopwatchapp.w3spaces.com/
 
 Created by Shivaraj M Shetty
