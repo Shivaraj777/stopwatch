@@ -30,7 +30,8 @@ JavaScript Logic:
     resetTimer(): Resets the timer by clearing the setInterval instance and setting the minutes,  seconds and milli-seconds back to 0.
     padZero(data): Pads a single digit value with a leading zero if required.
 
-Hosted on: w3spaces
+Hosting: 
+    hosted on: w3spaces
     url: https://stopwatchapp.w3spaces.com/
 
 Created by Shivaraj M Shetty
