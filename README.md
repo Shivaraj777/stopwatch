@@ -33,5 +33,3 @@ JavaScript Logic:
 Hosting: 
     hosted on: w3spaces
     url: https://stopwatchapp.w3spaces.com/
-
-Created by Shivaraj M Shetty
